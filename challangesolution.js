@@ -43,14 +43,13 @@
 // console.log(makeNegative(num))
 
 // //question 6 
-// let s = 6
-// let i = "guy"
-// function repeatStr(s, i) {
-//     for(let j=0; j<s;j++){
-//         console.log[j];
-//     }
-// }
-// return(s, i)
+function repeatString(n, s) {
+  let repeatedString = '';
+  for (let i = 0; i < n; i++) {
+    repeatedString += s;
+  }
+  return repeatedString;
+}
 
 //question 7
 
