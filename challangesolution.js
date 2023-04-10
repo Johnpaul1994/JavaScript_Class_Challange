@@ -1,9 +1,9 @@
-//question 1
+// //question 1
 // function multiply(a, b) {
 //     return a * b;
 // }
 
-// question 2
+// //question 2
 // function evenOrOdd(num) {
 //     if (num % 2 === 0) {
 //         return "even";
@@ -14,7 +14,9 @@
 //     }
 // }
 
-// question 3
+// console.log(evenOrOdd(103));
+
+// //question 3
 // function positiveSum(arr){
 //     let sum = 0;
 //     for (i =0; i < arr.length; i++){
@@ -43,13 +45,13 @@
 // console.log(makeNegative(num))
 
 // //question 6 
-function repeatString(n, s) {
-  let repeatedString = '';
-  for (let i = 0; i < n; i++) {
-    repeatedString += s;
-  }
-  return repeatedString;
-}
+// function repeatString(n, s) {
+//   let repeatedString = '';
+//   for (let i = 0; i < n; i++) {
+//     repeatedString += s;
+//   }
+//   return repeatedString;
+// }
 
 //question 7
 
@@ -64,3 +66,14 @@ function repeatString(n, s) {
 
 //referenceError, when you are calling a variable that has not been decleared 
 
+function positiveSum(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) {
+            sum += arr[i];
+        }
+    }
+    return sum;
+}
+
+console.log(positiveSum([1,-4,7,12]));
